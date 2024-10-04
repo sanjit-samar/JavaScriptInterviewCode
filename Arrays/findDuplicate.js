@@ -12,3 +12,22 @@ function uniqueArr(arr){
 const result = uniqueArr(arr);
 
 console.log(result);
+
+
+// By help of For loop
+
+let Arr = ["a","b","c","a","c","d"];
+
+function modifiedArr(Arr){
+
+    let newArr =[];
+    for(let i=0; i<Arr.length; i++){
+        if(newArr.indexOf(Arr[i]) === -1){
+            newArr.push(Arr[i]);
+        }     
+    }
+    return newArr;
+}
+
+let res = modifiedArr(Arr);
+console.log(res);
