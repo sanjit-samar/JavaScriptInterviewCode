@@ -11,3 +11,10 @@ function reverse(arr){
 
 const result = reverse(arr);
 console.log(result);
+
+
+
+//Bulit in method
+
+const builtIn = arr.reverse();
+console.log(builtIn);
